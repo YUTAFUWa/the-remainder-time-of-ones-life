@@ -1,0 +1,48 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+body{
+  background-image: url(image/知床山.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+#wrap{
+  margin-top: 100px;
+}
+
+
+#wrap p{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#agePlace{
+  width: fit-content;
+  margin:auto;
+  margin-top: 15px;
+}
+
+
+#age{
+  width: 150px;
+  height: 100px;
+  
+}
+
+
+#start{
+  width: fit-content;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#btn{
+  font-size: 15px;
+}
