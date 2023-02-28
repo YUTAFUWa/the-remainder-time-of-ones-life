@@ -4,6 +4,7 @@ const age = document.getElementById('age');
 const answer = document.getElementById('answer');
 const btn = document.getElementById('btn');
 const agePlace = document.getElementById('agePlace');
+const averageLife = 81.47;
 
 // 選べる年齢の選択肢
 const addDom = () => {
@@ -20,7 +21,10 @@ addDom();
 
 // 選択した年齢の情報を取得
 function getAge(){
-  console.log(age.value);
+  const selectAge = age.value;
+  const remainingLife = averageLife - selectAge;
+  const remainingTime = remainingLife * 365.25 * 24;
+  answer.innerHTML = "平均的にあと" + remainingTime + "時間生きられます。";
 };
 
 // 結果はHTMLで、
