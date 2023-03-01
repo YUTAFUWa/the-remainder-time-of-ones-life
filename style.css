@@ -32,12 +32,16 @@ body{
 
 #age{
   width: 150px;
-  height: 100px;  
+  height: 80px;
+  font-size: 30px;
+  text-align: center;
 }
 
 #gender{
   width: 150px;
-  height: 100px;  
+  height: 80px;  
+  font-size: 30px;
+  text-align: center;
 
 }
 
