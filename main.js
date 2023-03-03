@@ -23,12 +23,13 @@ addDom();
 
 
 
-
 // 選択した年齢の情報を取得
+btn.addEventListener('click',getAge);
+
 function getAge(){
 
   const selectValue = gender.value;
-  if(selectValue = "men"){
+  if(selectValue == "men"){
     averageLife = 81.47;
   } else{
     averageLife = 87.57;
@@ -38,13 +39,3 @@ function getAge(){
   const remainingTime = remainingLife * 365.25 * 24;
   answer.innerHTML = "平均的にあと" + remainingTime + "時間生きられます。";
 };
-
-// 結果はHTMLで、
-// displayをnoneで作成。
-// inlineもしくはblockに変更すればいい？
-// ボタンが押下された時に結果を表示する
-// 平均寿命から選択した年齢を引き算して残りの寿命を出す
-
-
-
-
