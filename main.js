@@ -36,6 +36,7 @@ function getAge(){
   }
   const selectAge = age.value;
   const remainingLife = averageLife - selectAge;
-  const remainingTime = remainingLife * 365.25 * 24;
+  let remainingTime = remainingLife * 365.25 * 24;
+  remainingTime = Math.round(remainingTime);
   answer.innerHTML = "平均的にあと" + remainingTime + "時間生きられます。";
 };
