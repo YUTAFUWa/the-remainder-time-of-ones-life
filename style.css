@@ -23,6 +23,10 @@ body{
   text-align: center;
 }
 
+#japanese{
+  padding-top: 20px;
+}
+
 #agePlace{
   width: fit-content;
   margin:auto;
@@ -33,14 +37,14 @@ body{
 #age{
   width: 150px;
   height: 80px;
-  font-size: 30px;
+  font-size: 18px;
   text-align: center;
 }
 
 #gender{
   width: 150px;
   height: 80px;  
-  font-size: 30px;
+  font-size: 18px;
   text-align: center;
 
 }
