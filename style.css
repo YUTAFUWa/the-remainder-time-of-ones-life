@@ -6,11 +6,12 @@
 
 
 body{
-  background-image: url(image/知床山.jpg);
+  background-image: url(image/mt.siretoko.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
 }
+
 
 #wrap{
   margin-top: 100px;
