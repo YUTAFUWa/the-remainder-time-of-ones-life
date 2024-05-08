@@ -4,6 +4,19 @@
   margin: 0;
 }
 
+#title{
+  font-family: 'YuMincho','Yu Mincho';
+  font-size:70px !important;
+  color: #e3d7a3;
+  /* color: blue; */
+  text-shadow: 3px 3px 2px rgb(0, 0, 0);
+}
+
+#sub-title{
+  font-size: 20px !important;
+  color: black;
+}
+
 
 body{
   background-image: url(image/mt.siretoko.jpg);
