@@ -10,11 +10,15 @@
   color: #e3d7a3;
   /* color: blue; */
   text-shadow: 3px 3px 2px rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
 }
 
 #sub-title{
   font-size: 20px !important;
   color: black;
+  font-weight: bold;
+  text-align: center;
 }
 
 
@@ -31,11 +35,6 @@ body{
 }
 
 
-#wrap p{
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-}
 
 #japanese{
   padding-top: 20px;
@@ -71,16 +70,39 @@ body{
 }
 
 #btn{
-  width: 170px;
-  font-size: 15px;
-  border-radius: 10px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border-radius: 100vh;
+	border-bottom: 7px solid #0686b2;
+	background: #27acd9;
+	color: #fff;
+}
+
+#btn:hover{
+  margin-top: 6px;
+	border-bottom: 1px solid #0686b2;
+	color: #fff;
 }
 
 #answer{
   width: fit-content;
+  text-align: center;
   margin:auto;
   margin-top: 15px;
   font-size: 30px;
   font-weight: bold;
-  color: rgb(115, 0, 255);
+  color: #9d9bfa;
+  text-shadow: 2px 2px 2px white;
+}
+
+@media screen and (max-width: 480px){
+  #title{
+    font-size:40px !important;
+  }
+  
 }
