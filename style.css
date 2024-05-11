@@ -96,8 +96,8 @@ body{
   margin-top: 15px;
   font-size: 30px;
   font-weight: bold;
-  color: #9d9bfa;
-  text-shadow: 2px 2px 2px white;
+  color: #7FFF00;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 480px){
