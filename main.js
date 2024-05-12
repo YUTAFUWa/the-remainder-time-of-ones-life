@@ -38,5 +38,6 @@ function getAge(){
   const remainingLife = averageLife - selectAge;
   let remainingTime = remainingLife * 365.25 * 24;
   remainingTime = Math.round(remainingTime);
-  answer.innerHTML = "あなたは平均してあと" + remainingTime + "時間生きられます。";
+  const formatter = new Intl.NumberFormat('ja-JP');
+  answer.innerHTML = "あなたは平均してあと" + formatter.format(remainingTime) + "時間生きられます。";
 };
